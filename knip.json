@@ -60,22 +60,18 @@
     },
     "examples/*/*": {
       "ignoreDependencies": [
-        "@blocknote/ariakit",
-        "@blocknote/mantine",
-        "@blocknote/shadcn",
         "@blocknote/core",
         "@blocknote/react",
+        "@blocknote/mantine",
         "@mantine/core",
         "@mantine/hooks"
       ]
     },
     "examples/02-backend/04-rendering-static-documents": {
       "ignoreDependencies": [
-        "@blocknote/ariakit",
-        "@blocknote/mantine",
-        "@blocknote/shadcn",
         "@blocknote/core",
         "@blocknote/react",
+        "@blocknote/mantine",
         "@mantine/core",
         "@mantine/hooks",
         "@blocknote/server-util"
@@ -83,11 +79,9 @@
     },
     "examples/03-ui-components/11-uppy-file-panel": {
       "ignoreDependencies": [
-        "@blocknote/ariakit",
-        "@blocknote/mantine",
-        "@blocknote/shadcn",
         "@blocknote/core",
         "@blocknote/react",
+        "@blocknote/mantine",
         "@mantine/core",
         "@mantine/hooks",
         "@uppy/xhr-upload"
@@ -96,11 +90,9 @@
     "examples/07-collaboration/02-liveblocks": {
       "entry": ["src/App.tsx", "liveblocks.config.ts"],
       "ignoreDependencies": [
-        "@blocknote/ariakit",
-        "@blocknote/mantine",
-        "@blocknote/shadcn",
         "@blocknote/core",
         "@blocknote/react",
+        "@blocknote/mantine",
         "@mantine/core",
         "@mantine/hooks",
         "@liveblocks/client"
@@ -110,7 +102,12 @@
       "ignoreDependencies": [".+"]
     },
     "playground": {
-      "ignoreDependencies": [".+"]
+      "ignoreDependencies": [
+        "@blocknote/.+",
+        "@mantine/hooks",
+        "katex",
+        "@react-pdf/math"
+      ]
     },
     "tests": {
       "entry": [

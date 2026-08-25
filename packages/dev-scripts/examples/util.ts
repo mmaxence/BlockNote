@@ -118,6 +118,11 @@ export type Project = {
     pro?: boolean;
     tailwind?: boolean;
     stackBlitz?: boolean;
+    /**
+     * Which BlockNote UI library the generated package.json depends on
+     * (default: mantine).
+     */
+    uiLib?: "mantine" | "ariakit" | "shadcn";
   };
   readme: string;
 };

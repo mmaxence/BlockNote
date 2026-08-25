@@ -385,9 +385,6 @@ importers:
 
   examples/01-basic/01-minimal:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -397,9 +394,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -428,9 +422,6 @@ importers:
 
   examples/01-basic/02-block-objects:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -440,9 +431,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -471,9 +459,6 @@ importers:
 
   examples/01-basic/03-multi-column:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -483,9 +468,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@blocknote/xl-multi-column':
         specifier: latest
         version: link:../../../packages/xl-multi-column
@@ -517,9 +499,6 @@ importers:
 
   examples/01-basic/04-default-blocks:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -529,9 +508,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -560,9 +536,6 @@ importers:
 
   examples/01-basic/05-removing-default-blocks:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -572,9 +545,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -603,9 +573,6 @@ importers:
 
   examples/01-basic/06-block-manipulation:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -615,9 +582,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -646,9 +610,6 @@ importers:
 
   examples/01-basic/07-selection-blocks:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -658,9 +619,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -695,21 +653,9 @@ importers:
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
-      '@blocknote/mantine':
-        specifier: latest
-        version: link:../../../packages/mantine
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
-      '@mantine/core':
-        specifier: ^9.0.2
-        version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
-      '@mantine/hooks':
-        specifier: ^9.0.2
-        version: 9.1.1(react@19.2.5)
       react:
         specifier: ^19.2.3
         version: 19.2.5
@@ -732,27 +678,15 @@ importers:
 
   examples/01-basic/09-shadcn:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
-      '@blocknote/mantine':
-        specifier: latest
-        version: link:../../../packages/mantine
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
       '@blocknote/shadcn':
         specifier: latest
         version: link:../../../packages/shadcn
-      '@mantine/core':
-        specifier: ^9.0.2
-        version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
-      '@mantine/hooks':
-        specifier: ^9.0.2
-        version: 9.1.1(react@19.2.5)
       react:
         specifier: ^19.2.3
         version: 19.2.5
@@ -784,9 +718,6 @@ importers:
 
   examples/01-basic/10-localization:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -796,9 +727,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -827,9 +755,6 @@ importers:
 
   examples/01-basic/11-custom-placeholder:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -839,9 +764,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -870,9 +792,6 @@ importers:
 
   examples/01-basic/12-multi-editor:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -882,9 +801,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -913,9 +829,6 @@ importers:
 
   examples/01-basic/13-custom-paste-handler:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -925,9 +838,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -956,9 +866,6 @@ importers:
 
   examples/01-basic/14-editor-scrollable:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -968,9 +875,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -999,9 +903,6 @@ importers:
 
   examples/01-basic/15-shadowdom:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -1011,9 +912,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -1042,9 +940,6 @@ importers:
 
   examples/01-basic/16-read-only-editor:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -1054,9 +949,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -1085,9 +977,6 @@ importers:
 
   examples/01-basic/17-no-trailing-block:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -1097,9 +986,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -1128,9 +1014,6 @@ importers:
 
   examples/01-basic/testing:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -1140,9 +1023,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -1171,9 +1051,6 @@ importers:
 
   examples/02-backend/01-file-uploading:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -1183,9 +1060,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -1214,9 +1088,6 @@ importers:
 
   examples/02-backend/02-saving-loading:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -1226,9 +1097,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -1263,9 +1131,6 @@ importers:
       '@aws-sdk/s3-request-presigner':
         specifier: ^3.609.0
         version: 3.1022.0
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -1275,9 +1140,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -1306,9 +1168,6 @@ importers:
 
   examples/02-backend/04-rendering-static-documents:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -1321,9 +1180,6 @@ importers:
       '@blocknote/server-util':
         specifier: latest
         version: link:../../../packages/server-util
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -1352,9 +1208,6 @@ importers:
 
   examples/03-ui-components/01-ui-elements-remove:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -1364,9 +1217,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -1395,9 +1245,6 @@ importers:
 
   examples/03-ui-components/02-formatting-toolbar-buttons:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -1407,9 +1254,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -1438,9 +1282,6 @@ importers:
 
   examples/03-ui-components/03-formatting-toolbar-block-type-items:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -1450,9 +1291,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -1484,9 +1322,6 @@ importers:
 
   examples/03-ui-components/04-side-menu-buttons:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -1496,9 +1331,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -1530,9 +1362,6 @@ importers:
 
   examples/03-ui-components/05-side-menu-drag-handle-items:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -1542,9 +1371,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -1573,9 +1399,6 @@ importers:
 
   examples/03-ui-components/06-suggestion-menus-slash-menu-items:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -1585,9 +1408,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -1619,9 +1439,6 @@ importers:
 
   examples/03-ui-components/07-suggestion-menus-slash-menu-component:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -1631,9 +1448,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -1662,9 +1476,6 @@ importers:
 
   examples/03-ui-components/08-suggestion-menus-emoji-picker-columns:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -1674,9 +1485,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -1705,9 +1513,6 @@ importers:
 
   examples/03-ui-components/09-suggestion-menus-emoji-picker-component:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -1717,9 +1522,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -1748,9 +1550,6 @@ importers:
 
   examples/03-ui-components/10-suggestion-menus-grid-mentions:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -1760,9 +1559,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -1791,9 +1587,6 @@ importers:
 
   examples/03-ui-components/11-uppy-file-panel:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -1803,9 +1596,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -1870,9 +1660,6 @@ importers:
 
   examples/03-ui-components/12-static-formatting-toolbar:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -1882,9 +1669,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -1913,9 +1697,6 @@ importers:
 
   examples/03-ui-components/13-custom-ui:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -1925,9 +1706,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -1962,9 +1740,6 @@ importers:
 
   examples/03-ui-components/14-experimental-mobile-formatting-toolbar:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -1974,9 +1749,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -2005,9 +1777,6 @@ importers:
 
   examples/03-ui-components/15-advanced-tables:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -2017,9 +1786,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -2048,9 +1814,6 @@ importers:
 
   examples/03-ui-components/16-link-toolbar-buttons:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -2060,9 +1823,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -2091,9 +1851,6 @@ importers:
 
   examples/03-ui-components/17-advanced-tables-2:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -2103,9 +1860,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -2134,9 +1888,6 @@ importers:
 
   examples/03-ui-components/18-drag-n-drop:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -2146,9 +1897,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -2177,9 +1925,6 @@ importers:
 
   examples/03-ui-components/19-suggestion-menus-grouping-ordering:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -2189,9 +1934,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -2220,9 +1962,6 @@ importers:
 
   examples/03-ui-components/20-portal-elements:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -2232,9 +1971,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -2263,9 +1999,6 @@ importers:
 
   examples/04-theming/01-theming-dom-attributes:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -2275,9 +2008,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -2306,9 +2036,6 @@ importers:
 
   examples/04-theming/02-changing-font:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -2318,9 +2045,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -2349,9 +2073,6 @@ importers:
 
   examples/04-theming/03-theming-css:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -2361,9 +2082,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -2392,9 +2110,6 @@ importers:
 
   examples/04-theming/04-theming-css-variables:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -2404,9 +2119,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -2435,9 +2147,6 @@ importers:
 
   examples/04-theming/05-theming-css-variables-code:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -2447,9 +2156,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -2478,9 +2184,6 @@ importers:
 
   examples/04-theming/06-code-block:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/code-block':
         specifier: latest
         version: link:../../../packages/code-block
@@ -2493,9 +2196,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -2524,9 +2224,6 @@ importers:
 
   examples/04-theming/07-custom-code-block:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -2536,9 +2233,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -2582,9 +2276,6 @@ importers:
 
   examples/05-interoperability/01-converting-blocks-to-html:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -2594,9 +2285,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -2625,9 +2313,6 @@ importers:
 
   examples/05-interoperability/02-converting-blocks-from-html:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -2637,9 +2322,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -2668,9 +2350,6 @@ importers:
 
   examples/05-interoperability/03-converting-blocks-to-md:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -2680,9 +2359,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -2711,9 +2387,6 @@ importers:
 
   examples/05-interoperability/04-converting-blocks-from-md:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -2723,9 +2396,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -2754,9 +2424,6 @@ importers:
 
   examples/05-interoperability/05-converting-blocks-to-pdf:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -2772,9 +2439,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@blocknote/xl-multi-column':
         specifier: latest
         version: link:../../../packages/xl-multi-column
@@ -2818,9 +2482,6 @@ importers:
 
   examples/05-interoperability/06-converting-blocks-to-docx:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -2836,9 +2497,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@blocknote/xl-docx-exporter':
         specifier: latest
         version: link:../../../packages/xl-docx-exporter
@@ -2873,9 +2531,6 @@ importers:
 
   examples/05-interoperability/07-converting-blocks-to-odt:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -2891,9 +2546,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@blocknote/xl-multi-column':
         specifier: latest
         version: link:../../../packages/xl-multi-column
@@ -2928,9 +2580,6 @@ importers:
 
   examples/05-interoperability/08-converting-blocks-to-react-email:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -2946,9 +2595,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@blocknote/xl-email-exporter':
         specifier: latest
         version: link:../../../packages/xl-email-exporter
@@ -2980,9 +2626,6 @@ importers:
 
   examples/05-interoperability/09-blocks-to-html-static-render:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -2992,9 +2635,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -3023,9 +2663,6 @@ importers:
 
   examples/05-interoperability/10-static-html-render:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -3035,9 +2672,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -3066,9 +2700,6 @@ importers:
 
   examples/06-custom-schema/01-alert-block:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -3078,9 +2709,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -3112,9 +2740,6 @@ importers:
 
   examples/06-custom-schema/02-suggestion-menus-mentions:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -3124,9 +2749,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -3155,9 +2777,6 @@ importers:
 
   examples/06-custom-schema/03-font-style:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -3167,9 +2786,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -3201,9 +2817,6 @@ importers:
 
   examples/06-custom-schema/04-pdf-file-block:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -3213,9 +2826,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -3247,9 +2857,6 @@ importers:
 
   examples/06-custom-schema/05-alert-block-full-ux:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -3259,9 +2866,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -3293,9 +2897,6 @@ importers:
 
   examples/06-custom-schema/06-toggleable-blocks:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -3305,9 +2906,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -3336,9 +2934,6 @@ importers:
 
   examples/06-custom-schema/07-configuring-blocks:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -3348,9 +2943,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -3379,9 +2971,6 @@ importers:
 
   examples/06-custom-schema/08-non-editable-block:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -3391,9 +2980,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -3422,9 +3008,6 @@ importers:
 
   examples/06-custom-schema/09-math-block:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/code-block':
         specifier: latest
         version: link:../../../packages/code-block
@@ -3440,9 +3023,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -3471,9 +3051,6 @@ importers:
 
   examples/06-custom-schema/10-diagram-block:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/code-block':
         specifier: latest
         version: link:../../../packages/code-block
@@ -3489,9 +3066,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -3520,9 +3094,6 @@ importers:
 
   examples/06-custom-schema/11-source-with-preview:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -3532,9 +3103,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -3566,9 +3134,6 @@ importers:
 
   examples/06-custom-schema/draggable-inline-content:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -3578,9 +3143,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -3609,9 +3171,6 @@ importers:
 
   examples/06-custom-schema/react-custom-blocks:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -3621,9 +3180,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -3652,9 +3208,6 @@ importers:
 
   examples/06-custom-schema/react-custom-inline-content:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -3664,9 +3217,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -3695,9 +3245,6 @@ importers:
 
   examples/06-custom-schema/react-custom-styles:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -3707,9 +3254,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -3738,9 +3282,6 @@ importers:
 
   examples/07-collaboration/01-partykit:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -3750,9 +3291,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -3787,9 +3325,6 @@ importers:
 
   examples/07-collaboration/02-liveblocks:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -3799,9 +3334,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@liveblocks/client':
         specifier: ^3.19.5
         version: 3.19.5(@types/json-schema@7.0.15)
@@ -3848,9 +3380,6 @@ importers:
 
   examples/07-collaboration/03-y-sweet:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -3860,9 +3389,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -3894,9 +3420,6 @@ importers:
 
   examples/07-collaboration/04-electric-sql:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -3906,9 +3429,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -3937,9 +3457,6 @@ importers:
 
   examples/07-collaboration/05-comments:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -3949,9 +3466,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -3983,9 +3497,6 @@ importers:
 
   examples/07-collaboration/06-comments-with-sidebar:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -3995,9 +3506,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -4032,9 +3540,6 @@ importers:
 
   examples/07-collaboration/07-ghost-writer:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -4044,9 +3549,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -4084,9 +3586,6 @@ importers:
 
   examples/07-collaboration/08-forking:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -4096,9 +3595,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -4133,9 +3629,6 @@ importers:
 
   examples/07-collaboration/09-comments-testing:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -4145,9 +3638,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -4179,9 +3669,6 @@ importers:
 
   examples/07-collaboration/10-suggestion-multi-editor:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -4191,9 +3678,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -4231,9 +3715,6 @@ importers:
 
   examples/07-collaboration/11-versioning-yjs13:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -4243,18 +3724,12 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
       '@mantine/hooks':
         specifier: ^9.0.2
         version: 9.1.1(react@19.2.5)
-      lib0:
-        specifier: 1.0.0-rc.22
-        version: 1.0.0-rc.22
       react:
         specifier: ^19.2.3
         version: 19.2.5
@@ -4283,9 +3758,6 @@ importers:
 
   examples/07-collaboration/12-multi-doc-versioning:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -4295,9 +3767,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -4338,9 +3807,6 @@ importers:
 
   examples/07-collaboration/13-versioning-yjs14:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -4350,9 +3816,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -4396,9 +3859,6 @@ importers:
 
   examples/07-collaboration/14-suggestion-gallery:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -4408,9 +3868,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@blocknote/xl-multi-column':
         specifier: latest
         version: link:../../../packages/xl-multi-column
@@ -4448,9 +3905,6 @@ importers:
 
   examples/08-extensions/01-tiptap-arrow-conversion:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -4460,9 +3914,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -4494,9 +3945,6 @@ importers:
 
   examples/08-extensions/02-versioning:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -4506,9 +3954,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -4543,9 +3988,6 @@ importers:
 
   examples/09-ai/01-minimal:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -4555,9 +3997,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@blocknote/xl-ai':
         specifier: latest
         version: link:../../../packages/xl-ai
@@ -4592,9 +4031,6 @@ importers:
 
   examples/09-ai/02-playground:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -4604,9 +4040,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@blocknote/xl-ai':
         specifier: latest
         version: link:../../../packages/xl-ai
@@ -4641,9 +4074,6 @@ importers:
 
   examples/09-ai/03-custom-ai-menu-items:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -4653,9 +4083,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@blocknote/xl-ai':
         specifier: latest
         version: link:../../../packages/xl-ai
@@ -4693,9 +4120,6 @@ importers:
 
   examples/09-ai/04-with-collaboration:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -4705,9 +4129,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@blocknote/xl-ai':
         specifier: latest
         version: link:../../../packages/xl-ai
@@ -4751,9 +4172,6 @@ importers:
 
   examples/09-ai/05-manual-execution:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -4763,9 +4181,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@blocknote/xl-ai':
         specifier: latest
         version: link:../../../packages/xl-ai
@@ -4803,9 +4218,6 @@ importers:
       '@ai-sdk/groq':
         specifier: ^3.0.2
         version: 3.0.2(zod@4.3.6)
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -4815,9 +4227,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@blocknote/xl-ai':
         specifier: latest
         version: link:../../../packages/xl-ai
@@ -4849,9 +4258,6 @@ importers:
 
   examples/09-ai/07-server-persistence:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -4861,9 +4267,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@blocknote/xl-ai':
         specifier: latest
         version: link:../../../packages/xl-ai
@@ -4898,9 +4301,6 @@ importers:
 
   examples/vanilla-js/react-vanilla-custom-blocks:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -4910,9 +4310,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -4941,9 +4338,6 @@ importers:
 
   examples/vanilla-js/react-vanilla-custom-inline-content:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -4953,9 +4347,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -4984,9 +4375,6 @@ importers:
 
   examples/vanilla-js/react-vanilla-custom-styles:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -4996,9 +4384,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -5027,9 +4412,6 @@ importers:
 
   examples/vanilla-js/vanilla-custom-side-menu:
     dependencies:
-      '@blocknote/ariakit':
-        specifier: latest
-        version: link:../../../packages/ariakit
       '@blocknote/core':
         specifier: latest
         version: link:../../../packages/core
@@ -5039,9 +4421,6 @@ importers:
       '@blocknote/react':
         specifier: latest
         version: link:../../../packages/react
-      '@blocknote/shadcn':
-        specifier: latest
-        version: link:../../../packages/shadcn
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -6090,15 +5469,6 @@ importers:
 
   playground:
     dependencies:
-      '@ai-sdk/groq':
-        specifier: ^3.0.2
-        version: 3.0.2(zod@4.3.6)
-      '@aws-sdk/client-s3':
-        specifier: ^3.911.0
-        version: 3.1022.0
-      '@aws-sdk/s3-request-presigner':
-        specifier: ^3.911.0
-        version: 3.1022.0
       '@blocknote/ariakit':
         specifier: workspace:^
         version: link:../packages/ariakit
@@ -6144,87 +5514,15 @@ importers:
       '@blocknote/xl-pdf-exporter':
         specifier: workspace:^
         version: link:../packages/xl-pdf-exporter
-      '@emotion/react':
-        specifier: 11.14.0
-        version: 11.14.0(@types/react@19.2.14)(react@19.2.5)
-      '@emotion/styled':
-        specifier: 11.14.1
-        version: 11.14.1(@emotion/react@11.14.0(@types/react@19.2.14)(react@19.2.5))(@types/react@19.2.14)(react@19.2.5)
-      '@liveblocks/client':
-        specifier: ^3.17.0
-        version: 3.19.5(@types/json-schema@7.0.15)
-      '@liveblocks/react':
-        specifier: ^3.17.0
-        version: 3.19.5(@types/json-schema@7.0.15)(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(react@19.2.5)
-      '@liveblocks/react-blocknote':
-        specifier: ^3.17.0
-        version: 3.19.5(@blocknote/core@packages+core)(@blocknote/react@packages+react)(@tiptap/core@3.29.2(@tiptap/pm@3.29.2))(@tiptap/pm@3.29.2)(@tiptap/react@3.29.2(@floating-ui/dom@1.7.6)(@tiptap/core@3.29.2(@tiptap/pm@3.29.2))(@tiptap/pm@3.29.2)(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5))(@tiptap/suggestion@2.27.2(@tiptap/core@3.29.2(@tiptap/pm@3.29.2))(@tiptap/pm@3.29.2))(@types/json-schema@7.0.15)(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(prosemirror-model@1.25.11)(prosemirror-state@1.4.4)(prosemirror-view@1.42.2)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)(y-protocols@1.0.7(yjs@13.6.30))(yjs@13.6.30)
-      '@liveblocks/react-tiptap':
-        specifier: ^3.17.0
-        version: 3.19.5(@tiptap/core@3.29.2(@tiptap/pm@3.29.2))(@tiptap/pm@3.29.2)(@tiptap/react@3.29.2(@floating-ui/dom@1.7.6)(@tiptap/core@3.29.2(@tiptap/pm@3.29.2))(@tiptap/pm@3.29.2)(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5))(@tiptap/suggestion@2.27.2(@tiptap/core@3.29.2(@tiptap/pm@3.29.2))(@tiptap/pm@3.29.2))(@types/json-schema@7.0.15)(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(prosemirror-model@1.25.11)(prosemirror-state@1.4.4)(prosemirror-view@1.42.2)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)(y-protocols@1.0.7(yjs@13.6.30))(yjs@13.6.30)
-      '@liveblocks/react-ui':
-        specifier: ^3.17.0
-        version: 3.19.5(@types/json-schema@7.0.15)(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
       '@mantine/core':
         specifier: ^9.0.2
         version: 9.1.1(@mantine/hooks@9.1.1(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
       '@mantine/hooks':
         specifier: ^9.0.2
         version: 9.1.1(react@19.2.5)
-      '@mui/icons-material':
-        specifier: ^5.18.0
-        version: 5.18.0(@mui/material@5.18.0(@emotion/react@11.14.0(@types/react@19.2.14)(react@19.2.5))(@emotion/styled@11.14.1(@emotion/react@11.14.0(@types/react@19.2.14)(react@19.2.5))(@types/react@19.2.14)(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5))(@types/react@19.2.14)(react@19.2.5)
-      '@mui/material':
-        specifier: ^5.18.0
-        version: 5.18.0(@emotion/react@11.14.0(@types/react@19.2.14)(react@19.2.5))(@emotion/styled@11.14.1(@emotion/react@11.14.0(@types/react@19.2.14)(react@19.2.5))(@types/react@19.2.14)(react@19.2.5))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
       '@react-pdf/math':
-        specifier: ^2.0.1
+        specifier: ^2.0.0
         version: 2.0.1(@react-pdf/renderer@4.5.1(react@19.2.5))(react@19.2.5)
-      '@uppy/core':
-        specifier: ^3.13.1
-        version: 3.13.1
-      '@uppy/dashboard':
-        specifier: ^3.9.1
-        version: 3.9.1(@uppy/core@3.13.1)
-      '@uppy/drag-drop':
-        specifier: ^3.1.1
-        version: 3.1.1(@uppy/core@3.13.1)
-      '@uppy/file-input':
-        specifier: ^3.1.2
-        version: 3.1.2(@uppy/core@3.13.1)
-      '@uppy/image-editor':
-        specifier: ^2.4.6
-        version: 2.4.6(@uppy/core@3.13.1)
-      '@uppy/progress-bar':
-        specifier: ^3.1.1
-        version: 3.1.1(@uppy/core@3.13.1)
-      '@uppy/react':
-        specifier: ^3.4.0
-        version: 3.4.0(@uppy/core@3.13.1)(@uppy/dashboard@3.9.1(@uppy/core@3.13.1))(@uppy/drag-drop@3.1.1(@uppy/core@3.13.1))(@uppy/file-input@3.1.2(@uppy/core@3.13.1))(@uppy/progress-bar@3.1.1(@uppy/core@3.13.1))(@uppy/status-bar@3.3.3(@uppy/core@3.13.1))(react@19.2.5)
-      '@uppy/screen-capture':
-        specifier: ^3.2.0
-        version: 3.2.0(@uppy/core@3.13.1)
-      '@uppy/status-bar':
-        specifier: ^3.3.3
-        version: 3.3.3(@uppy/core@3.13.1)
-      '@uppy/webcam':
-        specifier: ^3.4.2
-        version: 3.4.2(@uppy/core@3.13.1)
-      '@uppy/xhr-upload':
-        specifier: ^3.6.8
-        version: 3.6.8(@uppy/core@3.13.1)
-      '@y-sweet/react':
-        specifier: ^0.6.4
-        version: 0.6.4(react@19.2.5)(yjs@13.6.30)
-      ai:
-        specifier: ^6.0.5
-        version: 6.0.5(zod@4.3.6)
-      autoprefixer:
-        specifier: 10.4.21
-        version: 10.4.21(postcss@8.5.14)
-      docx:
-        specifier: ^9.5.1
-        version: 9.6.1
       katex:
         specifier: ^0.16.11
         version: 0.16.47(patch_hash=cbfb6fe178282ddb73b753dcb27f891295e4f9ed85f63bc1466b4e4b1e4ef6e7)
@@ -6234,15 +5532,9 @@ importers:
       react-dom:
         specifier: ^19.2.5
         version: 19.2.5(react@19.2.5)
-      react-icons:
-        specifier: ^5.5.0
-        version: 5.6.0(react@19.2.5)
       react-router-dom:
         specifier: ^6.30.1
         version: 6.30.3(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
-      y-partykit:
-        specifier: ^0.0.25
-        version: 0.0.25
     devDependencies:
       '@tailwindcss/vite':
         specifier: ^4.1.14
@@ -11852,13 +11144,6 @@ packages:
   atomically@2.1.1:
     resolution: {integrity: sha512-P4w9o2dqARji6P7MHprklbfiArZAWvo07yW7qs3pdljb3BWr12FIB7W+p0zJiuiVsUpRO0iZn1kFFcpPegg0tQ==}
 
-  autoprefixer@10.4.21:
-    resolution: {integrity: sha512-O+A6LWV5LDHSJD3LjHYoNi4VLsj/Whi7k6zG12xTYaU4cQ8oxQGckXNX8cRHK5yOZ/ppVHe0ZBXGzSV9jXdVbQ==}
-    engines: {node: ^10 || ^12 || >=14}
-    hasBin: true
-    peerDependencies:
-      postcss: ^8.1.0
-
   available-typed-arrays@1.0.7:
     resolution: {integrity: sha512-wvUjBtSGN7+7SjNpq/9M2Tg350UZD3q62IFZLbRAR1bSMlCo1ZaeW+BJ+D090e4hIIZLBcTDWe4Mh4jvUDajzQ==}
     engines: {node: '>= 0.4'}
@@ -13012,9 +12297,6 @@ packages:
 
   forwarded-parse@2.1.2:
     resolution: {integrity: sha512-alTFZZQDKMporBH77856pXgzhEzaUVmLCDk+egLgIgHst3Tpndzz8MnKe+GzRJRfvVdn69HhpW7cmXzvtLvJAw==}
-
-  fraction.js@4.3.7:
-    resolution: {integrity: sha512-ZsDfxO51wGAXREY55a7la9LScWpwv9RxIrYABrlvOFBlH/ShPnrtsXeuUIfXKKOVicNxQ+o8JTbJvjS4M89yew==}
 
   framer-motion@12.38.0:
     resolution: {integrity: sha512-rFYkY/pigbcswl1XQSb7q424kSTQ8q6eAC+YUsSKooHQYuLdzdHjrt6uxUC+PRAO++q5IS7+TamgIw1AphxR+g==}
@@ -14511,10 +13793,6 @@ packages:
 
   normalize-path@3.0.0:
     resolution: {integrity: sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA==}
-    engines: {node: '>=0.10.0'}
-
-  normalize-range@0.1.2:
-    resolution: {integrity: sha512-bdok/XvKII3nUpklnV6P2hxtMNrCboOjAcyBuQnWEhO665FwrSNRxU+AqpsyvO6LgGYPspN+lu5CLtw4jPRKNA==}
     engines: {node: '>=0.10.0'}
 
   normalize-svg-path@1.1.0:
@@ -17327,6 +16605,7 @@ snapshots:
       stylis: 4.2.0
     transitivePeerDependencies:
       - supports-color
+    optional: true
 
   '@emotion/cache@11.14.0':
     dependencies:
@@ -17341,6 +16620,7 @@ snapshots:
   '@emotion/is-prop-valid@1.4.0':
     dependencies:
       '@emotion/memoize': 0.9.0
+    optional: true
 
   '@emotion/memoize@0.9.0': {}
 
@@ -17359,6 +16639,7 @@ snapshots:
       '@types/react': 19.2.14
     transitivePeerDependencies:
       - supports-color
+    optional: true
 
   '@emotion/serialize@1.3.3':
     dependencies:
@@ -17384,12 +16665,14 @@ snapshots:
       '@types/react': 19.2.14
     transitivePeerDependencies:
       - supports-color
+    optional: true
 
   '@emotion/unitless@0.10.0': {}
 
   '@emotion/use-insertion-effect-with-fallbacks@1.2.0(react@19.2.5)':
     dependencies:
       react: 19.2.5
+    optional: true
 
   '@emotion/utils@1.4.2': {}
 
@@ -21257,7 +20540,8 @@ snapshots:
     dependencies:
       '@types/node': 25.6.0
 
-  '@types/parse-json@4.0.2': {}
+  '@types/parse-json@4.0.2':
+    optional: true
 
   '@types/pg-pool@2.0.7':
     dependencies:
@@ -22125,16 +21409,6 @@ snapshots:
       stubborn-fs: 2.0.0
       when-exit: 2.1.5
 
-  autoprefixer@10.4.21(postcss@8.5.14):
-    dependencies:
-      browserslist: 4.28.2
-      caniuse-lite: 1.0.30001787
-      fraction.js: 4.3.7
-      normalize-range: 0.1.2
-      picocolors: 1.1.1
-      postcss: 8.5.14
-      postcss-value-parser: 4.2.0
-
   available-typed-arrays@1.0.7:
     dependencies:
       possible-typed-array-names: 1.1.0
@@ -22144,6 +21418,7 @@ snapshots:
       '@babel/runtime': 7.29.2
       cosmiconfig: 7.1.0
       resolve: 1.22.12
+    optional: true
 
   babel-plugin-react-compiler@1.0.0:
     dependencies:
@@ -22510,7 +21785,8 @@ snapshots:
 
   convert-gitmoji@0.1.5: {}
 
-  convert-source-map@1.9.0: {}
+  convert-source-map@1.9.0:
+    optional: true
 
   convert-source-map@2.0.0: {}
 
@@ -22540,6 +21816,7 @@ snapshots:
       parse-json: 5.2.0
       path-type: 4.0.0
       yaml: 1.10.3
+    optional: true
 
   countries-list@3.3.0: {}
 
@@ -22980,6 +22257,7 @@ snapshots:
   error-ex@1.3.4:
     dependencies:
       is-arrayish: 0.2.1
+    optional: true
 
   error-stack-parser-es@1.0.5: {}
 
@@ -23387,7 +22665,8 @@ snapshots:
 
   file-uri-to-path@1.0.0: {}
 
-  find-root@1.1.0: {}
+  find-root@1.1.0:
+    optional: true
 
   find-up@5.0.0:
     dependencies:
@@ -23427,8 +22706,6 @@ snapshots:
       fd-package-json: 2.0.0
 
   forwarded-parse@2.1.2: {}
-
-  fraction.js@4.3.7: {}
 
   framer-motion@12.38.0(@emotion/is-prop-valid@1.4.0)(react-dom@19.2.5(react@19.2.5))(react@19.2.5):
     dependencies:
@@ -23759,6 +23036,7 @@ snapshots:
   hoist-non-react-statics@3.3.2:
     dependencies:
       react-is: 16.13.1
+    optional: true
 
   hono@4.12.14: {}
 
@@ -23884,7 +23162,8 @@ snapshots:
       call-bound: 1.0.4
       get-intrinsic: 1.3.0
 
-  is-arrayish@0.2.1: {}
+  is-arrayish@0.2.1:
+    optional: true
 
   is-async-function@2.1.1:
     dependencies:
@@ -24362,7 +23641,8 @@ snapshots:
       base64-js: 0.0.8
       unicode-trie: 2.0.0
 
-  lines-and-columns@1.2.4: {}
+  lines-and-columns@1.2.4:
+    optional: true
 
   loader-runner@4.3.2: {}
 
@@ -25120,8 +24400,6 @@ snapshots:
 
   normalize-path@3.0.0: {}
 
-  normalize-range@0.1.2: {}
-
   normalize-svg-path@1.1.0:
     dependencies:
       svg-arc-to-cubic-bezier: 3.2.0
@@ -25467,6 +24745,7 @@ snapshots:
       error-ex: 1.3.4
       json-parse-even-better-errors: 2.3.1
       lines-and-columns: 1.2.4
+    optional: true
 
   parse-svg-path@0.1.2: {}
 
@@ -25513,7 +24792,8 @@ snapshots:
 
   path-to-regexp@8.4.2: {}
 
-  path-type@4.0.0: {}
+  path-type@4.0.0:
+    optional: true
 
   pathe@2.0.3: {}
 
@@ -26192,6 +25472,7 @@ snapshots:
       is-core-module: 2.16.1
       path-parse: 1.0.7
       supports-preserve-symlinks-flag: 1.0.0
+    optional: true
 
   resolve@2.0.0-next.6:
     dependencies:
@@ -26574,7 +25855,8 @@ snapshots:
       buffer-from: 1.1.2
       source-map: 0.6.1
 
-  source-map@0.5.7: {}
+  source-map@0.5.7:
+    optional: true
 
   source-map@0.6.1: {}
 
@@ -27592,7 +26874,8 @@ snapshots:
 
   yallist@3.1.1: {}
 
-  yaml@1.10.3: {}
+  yaml@1.10.3:
+    optional: true
 
   yaml@2.9.0: {}
 

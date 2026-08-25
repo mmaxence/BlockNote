@@ -143,6 +143,7 @@ export const examples = {
           docs: true,
           author: "matthewlipski",
           tags: ["Basic"],
+          uiLib: "ariakit",
         },
         title: "Use with Ariakit",
         group: {
@@ -163,6 +164,7 @@ export const examples = {
           tags: ["Basic"],
           tailwind: true,
           stackBlitz: false,
+          uiLib: "shadcn",
         },
         title: "Use with ShadCN",
         group: {
@@ -1834,7 +1836,6 @@ export const examples = {
           dependencies: {
             "y-websocket": "^2.1.0",
             yjs: "^13.6.27",
-            lib0: "^0.2.99",
           } as any,
         },
         title: "Local Storage Versioning (yjs v13)",
