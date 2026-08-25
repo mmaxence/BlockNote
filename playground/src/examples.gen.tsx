@@ -506,9 +506,6 @@ export const examples = {
           docs: true,
           author: "matthewlipski",
           tags: ["Intermediate", "Blocks", "UI Components", "Block Side Menu"],
-          dependencies: {
-            "react-icons": "^5.5.0",
-          } as any,
         },
         title: "Adding Drag Handle Menu Items",
         group: {
@@ -1019,7 +1016,6 @@ export const examples = {
           author: "nperez0111",
           tags: ["Basic"],
           dependencies: {
-            "@blocknote/code-block": "latest",
             "@shikijs/core": "^4.4.3",
             "@shikijs/engine-javascript": "^4.4.3",
             "@shikijs/langs-precompiled": "^4.4.3",
@@ -1160,7 +1156,6 @@ export const examples = {
             "@blocknote/math-block": "latest",
             "@blocknote/xl-docx-exporter": "latest",
             "@blocknote/xl-multi-column": "latest",
-            katex: "^0.16.11",
           } as any,
           pro: true,
         },
@@ -1187,7 +1182,6 @@ export const examples = {
             "@blocknote/math-block": "latest",
             "@blocknote/xl-multi-column": "latest",
             "@blocknote/xl-odt-exporter": "latest",
-            katex: "^0.16.11",
           } as any,
           pro: true,
         },
@@ -1213,7 +1207,6 @@ export const examples = {
             "@blocknote/diagram-block": "latest",
             "@blocknote/math-block": "latest",
             "@blocknote/xl-email-exporter": "latest",
-            "@react-email/render": "^2.0.4",
           } as any,
           pro: true,
         },
@@ -1475,7 +1468,6 @@ export const examples = {
           dependencies: {
             "@blocknote/code-block": "latest",
             "@blocknote/math-block": "latest",
-            "react-icons": "^5.5.0",
           } as any,
         },
         title: "Math Block",
@@ -1504,7 +1496,6 @@ export const examples = {
           dependencies: {
             "@blocknote/code-block": "latest",
             "@blocknote/diagram-block": "latest",
-            "react-icons": "^5.5.0",
           } as any,
         },
         title: "Diagram Block",
@@ -1752,6 +1743,7 @@ export const examples = {
           author: "nperez0111",
           tags: ["Advanced", "Development", "Collaboration"],
           dependencies: {
+            "prosemirror-view": "^1.42.2",
             "y-partykit": "^0.0.25",
             yjs: "^13.6.27",
           } as any,
@@ -1820,7 +1812,6 @@ export const examples = {
             "@y/protocols": "^1.0.6-rc.1",
             "@y/y": "^14.0.0-rc.23",
             "@y/prosemirror": "^2.0.0-6",
-            "@y/websocket": "^4.0.0-rc.2",
           } as any,
         },
         title: "Suggestions (Experimental)",
@@ -2065,6 +2056,7 @@ export const examples = {
             "@blocknote/xl-ai": "latest",
             "@mantine/core": "^9.0.2",
             ai: "^6.0.5",
+            "prosemirror-view": "^1.42.2",
             "y-partykit": "^0.0.25",
             yjs: "^13.6.27",
           } as any,
@@ -2089,8 +2081,6 @@ export const examples = {
           dependencies: {
             "@blocknote/xl-ai": "latest",
             "@mantine/core": "^9.0.2",
-            ai: "^6.0.5",
-            "y-partykit": "^0.0.25",
             yjs: "^13.6.27",
           } as any,
         },
@@ -2115,7 +2105,6 @@ export const examples = {
             "@ai-sdk/groq": "^3.0.2",
             "@blocknote/xl-ai": "latest",
             "@mantine/core": "^9.0.2",
-            ai: "^6.0.5",
           } as any,
         },
         title: "AI Integration with ClientSideTransport",

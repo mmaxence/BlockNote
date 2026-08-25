@@ -31,6 +31,11 @@ jobs:
       - name: Install Dependencies
         run: vp install
 
+      - name: Check generated files are up to date
+        run: |
+          vp run --filter @blocknote/dev-scripts gen
+          git diff --exit-code || (echo "Generated files are out of date. Run 'pnpm run gen' and commit the result." && exit 1)
+
       - name: Build packages
         run: vp run -r build
 
